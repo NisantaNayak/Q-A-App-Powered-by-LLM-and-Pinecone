@@ -8,10 +8,8 @@ from langchain_openai import OpenAIEmbeddings
 from pinecone import Pinecone, PodSpec
 from dotenv import load_dotenv
 import openai
-from langchain_community.document_loaders import PyPDFDirectoryLoader
 import glob
 from langchain_community.document_loaders import PyPDFLoader
-from langchain.chains import RetrievalQA
 from langchain.chat_models import ChatOpenAI
 # Load environment variables
 load_dotenv()
